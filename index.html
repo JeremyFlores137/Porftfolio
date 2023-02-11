@@ -1,0 +1,475 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <!-- Put your site title here -->
+    <title>Jeremy Flores | A Full-Stack Developer based in Lima, Peru</title>
+
+    <meta name="description" content="Add small description of yourself." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- ***** Header ***** -->
+
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <div class="photo-div">
+            <img
+              src="./images/jeremy.jpg"
+              alt="Jeremy's photo"
+              class="my-photo animate__animated"
+              id="jeremy-photo"
+            />
+            <span class="presentation">I'm Ieremy Flores</span>
+          </div>
+
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link"
+                ><i class="fa-solid fa-suitcase"></i> Work</a
+              >
+            </li>
+            <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+            <li class="nav__item">
+              <a href="#about" class="nav__link"
+                ><i class="fa-solid fa-address-card"></i> About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"
+                ><i class="fa-sharp fa-solid fa-address-book"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <div>
+            <h1 class="heading-primary">
+              <!-- Replace the following name with your name -->
+              I'm a Full-Stack Developer <br />
+              Turning Your Paperball <br />
+              Into Paperplane
+            </h1>
+            <!-- Put a small paragraph about yourself -->
+            <p id="presentation-p">The hard way is the easy way.</p>
+            <a href="#contact" class="btn btn--pink">Get in touch</a>
+          </div>
+          <div class="paper-plane">
+            <img
+              src="https://media.giphy.com/media/R4H1oAuFVnEwdsXVoR/giphy.gif"
+              alt="plane gif"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- ***** Work ***** -->
+
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Quizzical App</h3>
+                <p>
+                  Have you ever wonder if you have sufficient knowledge about
+                  general topics? Now is the time to prove yourself.
+                </p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://ubiquitous-stardust-ecf078.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/JeremyFlores137/Quizzical"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/quiz.jpg"
+                  class="work__image"
+                  alt="Project 3"
+                />
+              </div>
+            </div>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Personal Dashboard</h3>
+                <p>A Chrome extension to help you focus and stay up-to-date.</p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://astounding-alpaca-c8bc80.netlify.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/JeremyFlores137/Dashboard"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/dashboard-2.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Password Generator</h3>
+                <p>
+                  An app that helps you to generate secure passwords. An
+                  indispensable feature nowadays.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://tubular-belekoy-04d421.netlify.app/"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/JeremyFlores137/Password-Generator"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/password.jpg"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Speed Typing Game</h3>
+                <p>A game that measures how fast you type.</p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://peaceful-gaufre-4537e2.netlify.app"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/JeremyFlores137/typing-game"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/typing.png"
+                  class="work__image jobify"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+            <div class="work__box">
+              <div class="work__text">
+                <h3>MERN App</h3>
+                <p>
+                  A Full-Stack web app that helps you keep track of your job
+                  search, as well as plot statistical graphs on your status.
+                </p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>Styled Components</li>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://mern-app-the-beginning.onrender.com/landing"
+                    class="link__text"
+                    target="_blank"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/JeremyFlores137/MERN-APP"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/jobify.png"
+                  class="work__image jobify"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Clients ***** -->
+      <!-- 
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section> -->
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                Soy un estudiante de la carrera de Ingeniería de
+                Telecomunicaciones de Perú, desde mis inicios en la universidad
+                afloró en mi esta pasión por la programación y desarrollo de
+                aplicaciones, entre otras cosas. Siempre trato de desarrollar
+                aplicaciones que no solo funcionen, sino que sean lo más optimas
+                posibles para las diversas plataformas del mercado.
+              </p>
+              <p>
+                En este momento me encuentro en el 9no ciclo académico y ansío
+                poner en práctica todos los conocimientos aprendidos.
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="#" class="btn">My Resume</a>
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img class="about__photo" src="./images/jane.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Are you looking for some consultation, want to ask questions, have
+            some advice for me, or simply want to say "Hi 👋" in any case feel
+            free to let me know. I will do my best to get back to you 😊 The
+            fastest way to get in touch with me is via email.
+          </p>
+          <!-- Replace the email with yours -->
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=eulerfermatleibniz@gmail.com&su=Hello!%20How%20can%20I%20help%20you?&body="
+            target="_blank"
+            class="btn"
+            >eulerfermatleibniz@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://twitter.com/JeremyFloresCo1"
+              title="Link to Twitter Profile"
+              target="_blank"
+            >
+              <img
+                src="./images/twitter.svg"
+                class="footer__social-image"
+                alt="Twitter"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/JeremyFlores137"
+              title="Link to Github Profile"
+              target="_blank"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://www.linkedin.com/in/jeremy-flores-condori-a07036233/"
+              target="_blank"
+            >
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+
+        <!-- <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+       -->
+      </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
+</html>
