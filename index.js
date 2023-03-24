@@ -9,9 +9,10 @@ const handleFirstTab = (e) => {
     window.addEventListener('mousedown', handleMouseDownOnce);
   }
 };
+/*
 document.getElementById('jeremy-photo').addEventListener('click', () => {
   document.getElementById('jeremy-photo').classList.toggle('animate__flip');
-});
+});*/
 const handleMouseDownOnce = () => {
   document.body.classList.remove('user-is-tabbing');
 
