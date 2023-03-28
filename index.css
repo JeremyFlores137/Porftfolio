@@ -140,7 +140,8 @@ span.presentation {
   border-radius: 50%;
   border: 1.5px solid var(--pink);
 }
-.my-photo:hover, .my-photo:focus {
+.my-photo:hover,
+.my-photo:focus {
   cursor: pointer;
   box-shadow: 0 0 10px var(--pink);
   animation: flip 2.5s;
@@ -148,7 +149,8 @@ span.presentation {
 /*Start*/
 @keyframes flip {
   from {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, -360deg);
     animation-timing-function: ease-out;
   }
 
@@ -171,7 +173,8 @@ span.presentation {
   }
 
   to {
-    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
     animation-timing-function: ease-in;
   }
 }
@@ -191,7 +194,7 @@ span.presentation {
   font-size: var(--font-size-huge);
   font-weight: 400;
 }
-.jobify{
+.jobify {
   border-radius: 3%;
 }
 @media (max-width: 900px) {
@@ -660,7 +663,8 @@ body:not(.user-is-tabbing) a:focus {
   transition: top, left, right, bottom, 100ms ease;
   height: 4rem;
 }
-.footer__social-image:hover, .footer__social-image:focus{
+.footer__social-image:hover,
+.footer__social-image:focus {
   height: 5rem;
 }
 .footer__github-buttons {
