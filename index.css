@@ -140,6 +140,10 @@ span.presentation {
   border-radius: 50%;
   border: 1.5px solid var(--pink);
 }
+.ieremy-photo{
+  border-radius: 5%;
+  
+}
 .my-photo:hover,
 .my-photo:focus {
   cursor: pointer;
